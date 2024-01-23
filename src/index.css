@@ -1,0 +1,17 @@
+:root {
+    color: black;
+    background-color: 'red';
+}
+
+.rotate {
+    animation: rotate 5s linear infinite;
+}
+  
+@keyframes rotate {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
